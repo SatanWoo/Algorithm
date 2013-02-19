@@ -5,6 +5,8 @@
 //@www.weibo.com/billgawu
 //@www.facebook.com/billgawu
 
+//参阅 http://blog.csdn.net/xiajun07061225/article/details/8088784
+
 #include<iostream>
 #include<cstring>
 using namespace std;
@@ -53,29 +55,29 @@ void initWC()
 	}
 }
 
-void print()
-{
-	for (int i = 1; i < size + 1; ++i)
-	{
-		for (int j = 0; j < size; ++j)
-		{
-			cout << wc[i][j] << " ";
-		} 
-		cout << endl;
-	}
-}
+// void print()
+// {
+// 	for (int i = 1; i < size + 1; ++i)
+// 	{
+// 		for (int j = 0; j < size; ++j)
+// 		{
+// 			cout << wc[i][j] << " ";
+// 		} 
+// 		cout << endl;
+// 	}
+// }
 
-void printNew()
-{
-	for (int i = 1; i < size + 1; ++i)
-	{
-		for (int j = 0; j < size; ++j)
-		{
-			cout << w[i][j] << " ";
-		} 
-		cout << endl;
-	}
-}
+// void printNew()
+// {
+// 	for (int i = 1; i < size + 1; ++i)
+// 	{
+// 		for (int j = 0; j < size; ++j)
+// 		{
+// 			cout << w[i][j] << " ";
+// 		} 
+// 		cout << endl;
+// 	}
+// }
 
 
 void optimalBinaryTreeByPrecalculation()
